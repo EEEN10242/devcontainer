@@ -1,9 +1,5 @@
 {
-    "name": "UoM EEEN10242 C programming container",
-	"build": {
-        "dockerfile": "./eeen10242_dockerfile",
-        "context": "."
-    },
+    "image": "ghcr.io/uom-eee-eeen1xxx2/dockerfile:latest",
     "capAdd": ["SYS_PTRACE"],
     "securityOpt": ["seccomp=unconfined"],
     "customizations": {
